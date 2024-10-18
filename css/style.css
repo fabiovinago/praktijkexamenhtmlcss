@@ -3,13 +3,29 @@
     box-sizing:border-box;
 }
 
+/*BODY TEXT*/
+body{
+    font-family: sourcesans;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: lanenar;
+    font-size: 36px;
+    color: white;
+}
+
+h2{
+    font-family: sourcesans;
+    font-size: 32px;
+}
+h3{
+    font-family: lanenar;
+    font-size: 24px;
+}
+
 /* MARGINS EN PADDINGS*/
-
-
-/*COLORS*/
-
-/* FONTS */
-
 /* POSITIONING CSS*/
 /* Display Flex */
 .d-flex {
@@ -226,3 +242,73 @@
 .text-center{
     text-align:center;
 }
+
+ /*FONTS*/
+@font-face {
+    font-family: lanenar;
+    src: url('../fonts/LANENAR_.ttf');
+}
+@font-face {
+    font-family: sourcesans;
+    src: url('../fonts/SourceSans3-VariableFont_wght.ttf');
+}
+
+/*HEADER*/
+header{
+    background-color: #1f9bc9;
+    padding: 78px 0px;
+}
+
+.landingtext{
+    font-family: sourcesans;
+    color: white;
+    font-size: 14px;
+
+}
+
+.maintextheader{
+    color: white;
+    font-size: 14px;
+}
+/*BUTTONS HEADER*/
+.btn1header{
+    font-family: sourcesans;
+    font-weight: bold;
+    font-size: 17px;
+    background: #157ba1;
+    color: white;
+    padding: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+.btn2header {
+    font-family: sourcesans;
+    font-weight: bold;
+    font-size: 17px;
+    background: #a7cb00;
+    color: white;
+    padding: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+
+
+}
+a:visited, a:focus, a:active {
+    color: white;
+}
+.btn2header:hover,.btn1header:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
