@@ -256,16 +256,19 @@ h3{
 /*HEADER*/
 header{
     background-color: #1f9bc9;
-    padding: 78px 0px;
+    padding-top: 0px;
 }
 
+.logoheader{
+    padding-top: 75px;
+
+}
 .landingtext{
     font-family: sourcesans;
     color: white;
     font-size: 14px;
 
 }
-
 .maintextheader{
     color: white;
     font-size: 14px;
@@ -296,8 +299,6 @@ header{
     border-radius: 7px;
     cursor: pointer;
     transition: background-color 0.3s ease, opacity 0.3s ease;
-
-
 }
 a:visited, a:focus, a:active {
     color: white;
@@ -306,9 +307,11 @@ a:visited, a:focus, a:active {
     background-color: rgba(255, 255, 255, 0.2);
 }
 .headerimg{
-    width: autox;
-    height: 286px;
+    width: 750px;
+    height: auto;
+    margin-top: 50px;
 }
+
 
 
 
