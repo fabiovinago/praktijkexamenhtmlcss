@@ -305,6 +305,10 @@ a:visited, a:focus, a:active {
 .btn2header:hover,.btn1header:hover{
     background-color: rgba(255, 255, 255, 0.2);
 }
+.headerimg{
+    width: autox;
+    height: 286px;
+}
 
 
 
