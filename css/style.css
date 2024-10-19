@@ -17,12 +17,13 @@ h1{
 }
 
 h2{
-    font-family: sourcesans;
+    font-family: lanenar;
     font-size: 32px;
 }
 h3{
     font-family: lanenar;
     font-size: 24px;
+    color: #a7cb00;
 }
 
 /* MARGINS EN PADDINGS*/
@@ -281,7 +282,7 @@ header{
     background: #157ba1;
     color: white;
     padding: 15px;
-    margin-left: 20px;
+    margin-right: 10px;
     text-decoration: none;
     border-radius: 7px;
     cursor: pointer;
@@ -294,7 +295,7 @@ header{
     background: #a7cb00;
     color: white;
     padding: 15px;
-    margin-left: 20px;
+    margin-left: 10px;
     text-decoration: none;
     border-radius: 7px;
     cursor: pointer;
@@ -310,6 +311,18 @@ a:visited, a:focus, a:active {
     width: 750px;
     height: auto;
     margin-top: 50px;
+}
+.builwith{
+    margin-top: 50px;
+}
+.iconsection{
+
+    text-align: center;
+    margin: auto;
+}
+.iconimg{
+    width: 100px;
+    height: auto;
 }
 
 
