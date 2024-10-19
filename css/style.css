@@ -14,6 +14,7 @@ h1{
     font-family: lanenar;
     font-size: 36px;
     color: white;
+    max-width: 600px;
 }
 
 h2{
@@ -312,11 +313,12 @@ a:visited, a:focus, a:active {
     height: auto;
     margin-top: 50px;
 }
+
+/*ICON SECTION*/
 .buildwith{
     margin-top: 50px;
 }
 .iconsection{
-
     text-align: center;
     margin: auto;
 }
@@ -328,7 +330,12 @@ a:visited, a:focus, a:active {
     margin: 100px 240px 100px 240px;
     margin-top: 100px;
 }
-
+.buildwithp{
+    max-width: 450px;
+}
+.iconptext{
+    max-width: 250px;
+}
 
 
 
