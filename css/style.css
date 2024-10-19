@@ -308,11 +308,11 @@ a:visited, a:focus, a:active {
     background-color: rgba(255, 255, 255, 0.2);
 }
 .headerimg{
-    width: 750px;
+    width: 800px;
     height: auto;
     margin-top: 50px;
 }
-.builwith{
+.buildwith{
     margin-top: 50px;
 }
 .iconsection{
