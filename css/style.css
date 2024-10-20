@@ -245,7 +245,7 @@ h3{
     text-align:center;
 }
 
- /*FONTS*/
+/*FONTS*/
 @font-face {
     font-family: lanenar;
     src: url('../fonts/LANENAR_.ttf');
@@ -320,7 +320,7 @@ a:visited, a:focus, a:active {
 }
 .iconsection{
     text-align: center;
-    margin: auto;
+    margin: 50px 115px 50px 115px;
 }
 .iconimg{
     width: 100px;
@@ -336,9 +336,15 @@ a:visited, a:focus, a:active {
 .iconptext{
     max-width: 250px;
 }
+/*CENTER CONTENT SMARTPHONE & TEXT WITH ICONS*/
 
-
-
-
-
-
+.pgreen{
+    color: #a7cb00;
+    line-height: 0;
+}
+.icontextcenterdivp{
+    max-width: 260px;
+}
+.h2ptext{
+    max-width: 360px;
+}
