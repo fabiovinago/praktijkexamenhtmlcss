@@ -369,5 +369,14 @@ a:visited, a:focus, a:active {
 .features-section-p{
     max-width: 360px;
 }
-
+.text-left{
+    width: 215px;
+    text-align: right;
+    margin-right: 62px;
+}
+.text-right {
+    width: 215px;
+    text-align: left;
+    margin-left: 62px;
+}
 
