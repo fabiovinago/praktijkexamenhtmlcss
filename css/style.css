@@ -3,29 +3,7 @@
     box-sizing:border-box;
 }
 
-/*BODY TEXT*/
-body{
-    font-family: sourcesans;
-    font-size: 16px;
-    margin: 0 auto;
-}
 
-h1{
-    font-family: lanenar;
-    font-size: 36px;
-    color: white;
-    max-width: 600px;
-}
-
-h2{
-    font-family: lanenar;
-    font-size: 32px;
-}
-h3{
-    font-family: lanenar;
-    font-size: 24px;
-    color: #a7cb00;
-}
 
 /* MARGINS EN PADDINGS*/
 /* POSITIONING CSS*/
@@ -245,6 +223,49 @@ h3{
     text-align:center;
 }
 
+/*START PRAKTIJK*/
+
+/*BODY TEXT*/
+body{
+    font-family: sourcesans;
+    font-size: 16px;
+    margin: 0;
+}
+
+.h1-home{
+    font-family: lanenar;
+    font-size: 36px;
+    color: white;
+    max-width: 600px;
+}
+
+.h2-home{
+    font-family: lanenar;
+    font-size: 32px;
+}
+.h3-green{
+    font-family: lanenar;
+    font-size: 24px;
+    color: #a7cb00;
+}
+/*MARGIN & PADDING*/
+
+.header-margin{
+    padding-top: 70px;
+}
+.buildwith-margin {
+    margin-top: 50px;
+}
+.margin-second{
+    margin-top: 150px;
+    margin-bottom: 78px;
+}
+.img-phones-center{
+    margin-right: 100px;
+}
+.img-phones-sec-center{
+    margin-left: 100px;
+}
 /*FONTS*/
 @font-face {
     font-family: lanenar;
@@ -256,9 +277,8 @@ h3{
 }
 
 /*HEADER*/
-header{
+#hero-header{
     background-color: #1f9bc9;
-    padding-top: 0px;
 }
 
 .logoheader{
@@ -315,20 +335,14 @@ a:visited, a:focus, a:active {
 }
 
 /*ICON SECTION*/
-.buildwith{
-    margin-top: 50px;
-}
-.iconsection{
-    text-align: center;
-    margin: 50px auto;
-}
-.iconimg{
-    width: 100px;
+.icon-home-size{
+    width: 120px;
     height: auto;
 }
-.articleicons{
-    margin: 100px 240px 100px 240px;
-    margin-top: 100px;
+.icon-home-second{
+    width: 80px;
+    height: auto;
+    margin-right: 30px;
 }
 .buildwithp{
     max-width: 450px;
@@ -337,9 +351,6 @@ a:visited, a:focus, a:active {
     max-width: 250px;
 }
 /*CENTER CONTENT SMARTPHONE & TEXT WITH ICONS*/
-.phonesection{
-    margin: 150px auto;
-}
 .pgreen{
     color: #a7cb00;
     line-height: 0;
@@ -350,4 +361,13 @@ a:visited, a:focus, a:active {
 .h2ptext{
     max-width: 360px;
 }
+/*SECTON AWSOME FEATRES*/
+.features-section{
+    background: #f7f8fa;
+    padding-top: 95px;
+}
+.features-section-p{
+    max-width: 360px;
+}
+
 
