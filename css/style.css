@@ -385,5 +385,66 @@ a:visited, a:focus, a:active {
 .text-margin-p{
     margin-bottom: 68px;
 }
+/*SCREENSHOT GALLERY SECTION*/
+.screenshot-img{
+    max-width: 140px;
+    height: auto;
+    margin: 20px;
+    box-shadow: 0px 12px 18px -11px rgba(0, 0, 0, 0.66);
+}
+.margin-gallery{
+    margin-bottom: 78px;
+}
+/*FOOTER SECTION TEXT*/
+#footer-bg{
+    background-color: #1f9bc9;
+    padding-bottom: 50px;
+}
+.footer-h2{
+    font-family: lanenar;
+    font-size: 32px;
+    color: white;
+}
+.footer-p{
+    font-family: sourcesans;
+    font-size: 16px;
+    color: white;
+}
+/*FORM FOOTER*/
+.form-imput{
+    font-family: sourcesans;
+    font-size: 16px 30px;
+    padding: 15px;
+    width: 300px;
+    border: none;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 0px; /* Geen afronding aan rechterkant */
+    border-bottom-right-radius: 0px /* Geen afronding aan rechterkant */
+}
+.form-btn{
+    padding: 15px 30px;
+    background-color: #a7cb00;
+    color: white;
+    font-family: 'SourceSansPro', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0px; /* Geen afronding aan linkerkant */
+    border-bottom-left-radius: 0px; /* Geen afronding aan linkerkant */
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+.form-btn:hover{
+    background-color: rgba(21, 123, 161, 0.8);
+}
+.footer-input[type="email"]:focus {
+    outline: none; /* Verwijdert de standaard outline */
+}
+/*SOCAIL MEDIA ICONS FOOTER*/
+.social-icons{
+    max-width: 180px;
+}
 
 
