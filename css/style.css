@@ -266,6 +266,9 @@ body{
 .img-phones-sec-center{
     margin-left: 100px;
 }
+.img-padding{
+    margin-bottom: -1px;
+}
 /*FONTS*/
 @font-face {
     font-family: lanenar;
@@ -382,4 +385,5 @@ a:visited, a:focus, a:active {
 .text-margin-p{
     margin-bottom: 68px;
 }
+
 
