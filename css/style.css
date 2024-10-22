@@ -364,7 +364,7 @@ a:visited, a:focus, a:active {
 /*SECTON AWSOME FEATRES*/
 .features-section{
     background: #f7f8fa;
-    padding-top: 95px;
+    padding-top: 50px;
 }
 .features-section-p{
     max-width: 360px;
@@ -378,5 +378,8 @@ a:visited, a:focus, a:active {
     width: 215px;
     text-align: left;
     margin-left: 62px;
+}
+.text-margin-p{
+    margin-bottom: 68px;
 }
 
