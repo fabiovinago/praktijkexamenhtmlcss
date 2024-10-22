@@ -446,10 +446,17 @@ a:visited, a:focus, a:active {
 
 .social-icons{
     color: white;
-    font-size: 32px;
+    font-size: 35px;
     padding: 5px;
     margin-top: 150px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
 }
+.social-icons:hover{
+    color: #0a4156; /* Verander kleur naar groen bij hover */
+    transform: scale(1.2); /* Vergroot de iconen bij hover */
+}
+
 .copyright-footer{
     color: white;
     font-size: 16px;
