@@ -2,12 +2,6 @@
 *{
     box-sizing:border-box;
 }
-
-
-
-/* MARGINS EN PADDINGS*/
-/* POSITIONING CSS*/
-/* Display Flex */
 .d-flex {
     display: flex;
 }
@@ -238,7 +232,6 @@ body{
     color: white;
     max-width: 600px;
 }
-
 .h2-home{
     font-family: lanenar;
     font-size: 32px;
@@ -249,7 +242,6 @@ body{
     color: #a7cb00;
 }
 /*MARGIN & PADDING*/
-
 .header-margin{
     padding-top: 70px;
 }
@@ -269,7 +261,7 @@ body{
 .img-padding{
     margin-bottom: -1px;
 }
-/*FONTS*/
+/*FONTS DIE IN HET DOCUMENT GEBRUIKT WORDEN*/
 @font-face {
     font-family: lanenar;
     src: url('../fonts/LANENAR_.ttf');
@@ -278,8 +270,7 @@ body{
     font-family: sourcesans;
     src: url('../fonts/SourceSans3-VariableFont_wght.ttf');
 }
-
-/*HEADER*/
+/*HEADER SECTIE MET SPECIFIEKE OPMAAK*/
 #hero-header{
     background-color: #1f9bc9;
 }
@@ -298,7 +289,7 @@ body{
     color: white;
     font-size: 14px;
 }
-/*BUTTONS HEADER*/
+/*BUTTONS HEADER - OPMAAK KNOPPEN UIT DE HEADER*/
 .btn1header{
     font-family: sourcesans;
     font-weight: bold;
@@ -422,9 +413,6 @@ a:visited, a:focus, a:active {
 #location-button:hover {
     background-color: rgba(21, 123, 161, 0.8); /* Kleur bij hover */
 }
-
-
-
 /*FOOTER SECTION TEXT*/
 #footer-bg{
     background-color: #1f9bc9;
