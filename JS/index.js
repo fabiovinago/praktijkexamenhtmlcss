@@ -44,3 +44,26 @@ function showError(error) {
             break;
     }
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    const sections = document.querySelectorAll('.animatable');
+
+    const options = {
+        root: null, // Gebruik het viewport als root
+        rootMargin: '0px',
+        threshold: 0.1 // Activatie wanneer 10% van de sectie zichtbaar is
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible'); // Voeg de class toe om de animatie te activeren
+                observer.unobserve(entry.target); // Stop met observeren van deze sectie
+            }
+        });
+    }, options);
+
+    sections.forEach(section => {
+        observer.observe(section); // Begin met observeren van elke sectie
+    });
+});

@@ -217,15 +217,18 @@
     text-align:center;
 }
 
-/*START PRAKTIJK*/
-
+/* ----------------------------------------------
+ HIER START MIJN CSS
+ ---------------------------------------------- */
 /*BODY TEXT*/
+/*Deze regels stellen het standaardlettertype, de lettergrootte en de marges voor de hele pagina in.*/
 body{
     font-family: sourcesans;
     font-size: 16px;
     margin: 0;
 }
-
+/*VASTE KLASSE OPMAAK VOOR KOPPEN*/
+/*Deze regels definiëren de stijlen voor de koppen H1, H2 en H3, inclusief lettertype, grootte en kleur.*/
 .h1-home{
     font-family: lanenar;
     font-size: 36px;
@@ -242,6 +245,7 @@ body{
     color: #a7cb00;
 }
 /*MARGIN & PADDING*/
+/*Deze regels voegen specifieke marges en padding toe aan verschillende elementen voor de lay-out.*/
 .header-margin{
     padding-top: 70px;
 }
@@ -261,7 +265,8 @@ body{
 .img-padding{
     margin-bottom: -1px;
 }
-/*FONTS DIE IN HET DOCUMENT GEBRUIKT WORDEN*/
+/*FONTS*/
+/*Deze regels definiëren de lettertypen die in het document worden gebruikt en specificeren het pad naar de fontbestanden.*/
 @font-face {
     font-family: lanenar;
     src: url('../fonts/LANENAR_.ttf');
@@ -270,26 +275,25 @@ body{
     font-family: sourcesans;
     src: url('../fonts/SourceSans3-VariableFont_wght.ttf');
 }
-/*HEADER SECTIE MET SPECIFIEKE OPMAAK*/
+/*HEADER*/
+/*Deze regels stellen de opmaak en kleur van de header, logo en tekst in de headersectie in.*/
 #hero-header{
     background-color: #1f9bc9;
 }
-
 .logoheader{
     padding-top: 75px;
-
 }
 .landingtext{
     font-family: sourcesans;
     color: white;
     font-size: 14px;
-
 }
 .maintextheader{
     color: white;
     font-size: 14px;
 }
-/*BUTTONS HEADER - OPMAAK KNOPPEN UIT DE HEADER*/
+/*HEADER BUTTONS*/
+/*Deze regels definiëren de opmaak voor de knoppen in de header, inclusief kleuren, padding en hover-effecten.*/
 .btn1header{
     font-family: sourcesans;
     font-weight: bold;
@@ -316,6 +320,7 @@ body{
     cursor: pointer;
     transition: background-color 0.3s ease, opacity 0.3s ease;
 }
+/*Deze regels stellen de kleur van links in en definiëren het hover-effect voor de knoppen.*/
 a:visited, a:focus, a:active {
     color: white;
 }
@@ -327,8 +332,8 @@ a:visited, a:focus, a:active {
     height: auto;
     margin-top: 50px;
 }
-
-/*ICON SECTION*/
+/*ICONS*/
+/*Deze regels definiëren de afmetingen en marges voor de iconen en gerelateerde tekst.*/
 .icon-home-size{
     width: 120px;
     height: auto;
@@ -345,6 +350,7 @@ a:visited, a:focus, a:active {
     max-width: 250px;
 }
 /*CENTER CONTENT SMARTPHONE & TEXT WITH ICONS*/
+/*Deze regels stellen de kleur en breedte in van tekstgerelateerde elementen en zorgen voor een nette uitlijning.*/
 .pgreen{
     color: #a7cb00;
     line-height: 0;
@@ -355,7 +361,9 @@ a:visited, a:focus, a:active {
 .h2ptext{
     max-width: 360px;
 }
-/*SECTON AWSOME FEATRES*/
+
+/*SECTON AWSOME FEATURES*/
+/*Deze regels stellen de achtergrondkleur, padding en uitlijning in voor de features en bijbehorende tekst.*/
 .features-section{
     background: #f7f8fa;
     padding-top: 50px;
@@ -377,6 +385,7 @@ a:visited, a:focus, a:active {
     margin-bottom: 68px;
 }
 /*SCREENSHOT GALLERY SECTION*/
+/*Deze regels definiëren de afmetingen, marges en schaduwen voor de screenshots in de galerij.*/
 .screenshot-img{
     max-width: 140px;
     height: auto;
@@ -387,6 +396,7 @@ a:visited, a:focus, a:active {
     margin-bottom: 78px;
 }
 /*GEOLOCATION*/
+/*Deze regels definiëren de opmaak voor de geolocatie-sectie, inclusief de knop en uitvoer van de locatie.*/
 #my-location{
     margin-top: 50px;
     padding: 30px;
@@ -409,11 +419,11 @@ a:visited, a:focus, a:active {
     cursor: pointer;
     transition: background-color 0.3s ease, opacity 0.3s ease;
 }
-
 #location-button:hover {
     background-color: rgba(21, 123, 161, 0.8); /* Kleur bij hover */
 }
 /*FOOTER SECTION TEXT*/
+/*Deze regels stellen de opmaak in voor de footer-sectie, inclusief achtergrondkleur en tekststijlen.*/
 #footer-bg{
     background-color: #1f9bc9;
     padding-bottom: 50px;
@@ -429,6 +439,7 @@ a:visited, a:focus, a:active {
     color: white;
 }
 /*FORM FOOTER*/
+/*Deze regels definiëren de opmaak voor invoervelden en knoppen in het footer-abonnementformulier.*/
 .form-imput{
     font-family: sourcesans;
     font-size: 16px 30px;
@@ -437,8 +448,8 @@ a:visited, a:focus, a:active {
     border: none;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
-    border-top-right-radius: 0px; /* Geen afronding aan rechterkant */
-    border-bottom-right-radius: 0px /* Geen afronding aan rechterkant */
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px
 }
 .form-btn{
     padding: 15px 30px;
@@ -449,8 +460,8 @@ a:visited, a:focus, a:active {
     border: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    border-top-left-radius: 0px; /* Geen afronding aan linkerkant */
-    border-bottom-left-radius: 0px; /* Geen afronding aan linkerkant */
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     cursor: pointer;
     transition: background-color 0.3s ease, opacity 0.3s ease;
 }
@@ -458,35 +469,30 @@ a:visited, a:focus, a:active {
     background-color: rgba(21, 123, 161, 0.8);
 }
 .footer-input[type="email"]:focus {
-    outline: none; /* Verwijdert de standaard outline */
+    outline: none;
 }
 /*SOCAIL MEDIA ICONS FOOTER*/
-
+/*Deze regels definiëren de stijlen voor sociale media-iconen en de copyright-footer.*/
 .social-icons{
     color: white;
     font-size: 35px;
     padding: 5px;
     margin-top: 150px;
     cursor: pointer;
-    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 .social-icons:hover{
-    color: #0a4156; /* Verander kleur naar groen bij hover */
-    transform: scale(1.2); /* Vergroot de iconen bij hover */
+    color: #0a4156;
+    transform: scale(1.2);
 }
-
 .copyright-footer{
     color: white;
     font-size: 16px;
     margin-top: 68px;
-    opacity: 0.7; /* Lichte transparantie voor subtiele weergave */
-
+    opacity: 0.7;
 }
 /*ANIMATIONS*/
-/* ----------------------------------------------
-Animation logo, h1-tag & buttons header section
-animation scale-up
- ---------------------------------------------- */
+/*Deze regels definiëren een horizontale schaalanimatie die elementen laat verschijnen met een in- en uitgroei-effect.*/
 @-webkit-keyframes scale-in-hor-center {
     0% {
         -webkit-transform: scaleX(0);
@@ -515,10 +521,8 @@ animation scale-up
     -webkit-animation: scale-in-hor-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: scale-in-hor-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-/* ----------------------------------------------
-Animation header smartphones
-animation scale-in-center
- ---------------------------------------------- */
+
+/*Deze regels definiëren een fade-in animatie die elementen naar voren laat komen vanuit een achtergrondpositie.*/
 @-webkit-keyframes fade-in-fwd {
     0% {
         -webkit-transform: translateZ(-80px);
@@ -547,10 +551,7 @@ animation scale-in-center
     -webkit-animation: fade-in-fwd 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: fade-in-fwd 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
-/* ----------------------------------------------
-Animation section middle smartphones
-animation scale-in-center
- ---------------------------------------------- */
+/*Deze regels definiëren een schaalanimatie die elementen laat verschijnen door in grootte te toenemen.*/
 .scale-in-center {
     -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -580,32 +581,27 @@ animation scale-in-center
         opacity: 1;
     }
 }
-/* ----------------------------------------------
-Animation feature section h2
-animation typewriter
- ---------------------------------------------- */
+/*TYPEWRITE ANIMATION*/
 .typewriter {
     font-family: lanenar;
     font-size: 32px;
     color: #000;
-    white-space: nowrap; /* Zorgt ervoor dat de tekst op één regel blijft */
-    overflow: hidden; /* Verbergt de tekst die buiten de container valt */
-    border-right: 3px solid black; /* Cursor-effect */
-    width: 0; /* Start met een breedte van 0 voor het typewriter-effect */
-    animation: typing 1.5s steps(30, end) forwards, blink-caret 0.75s step-end infinite; /* Typing en cursor-animatie */
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid black;
+    width: 0;
+    animation: typing 1.5s steps(30, end) forwards, blink-caret 0.75s step-end infinite;
 }
-
-/* Typewriter animation */
 @keyframes typing {
     from {
         width: 0;
     }
     to {
-        width: 15%; /* Zet de breedte van de tekst op 100% */
+        width: 15%;
     }
 }
 
-/* Blinking cursor animation */
+/*BLINKING CURSOR ANIMATION*/
 @keyframes blink-caret {
     from, to {
         border-color: transparent;
@@ -615,9 +611,21 @@ animation typewriter
     }
 }
 
-/* Verwijder de cursor na het typen */
+/*VERWIJDER CURSOR NA HET TYPEN*/
 .typewriter.completed {
-    border-right: none; /* Verwijdert de cursor */
+    border-right: none;
+}
+
+/*Animatie verschijnt pas wanneer gebruikerop dat deel van de pagina scrolt.*/
+.animatable {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animatable.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 
