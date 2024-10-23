@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -10,28 +10,26 @@
 	<meta name="author" content="Fabio Vinago">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-	
 	<title>Hype LandingPage</title>
     
 </head>
 <body>
-
 <header id="hero-header" class="header-margin">
 	<div class="d-flex justify-content-center">
-		<a href="index.html" target="_blank"><img src="img/logo.png" alt="hype logo"></a>
+		<a href="index.html" target="_blank"><img src="img/logo.png" alt="hype logo" class="scale-in-hor-center"></a>
 	</div>
 	<div class="maintextheader d-flex justify-content-center">
-		<p class="landingtext">LANDINGPAGE</p>
+		<p class="landingtext scale-in-hor-center hidden show">LANDINGPAGE</p>
 	</div>
 	<div class="sloganheader d-flex justify-content-center text-center">
-		<h1 class="h1-home">Hype Landing Page is the best way to present your beautiful mobile app.</h1>
+		<h1 class="h1-home scale-up-hor-center scale-in-hor-center">Hype Landing Page is the best way to present your beautiful mobile app.</h1>
 	</div>
-	<div class="d-flex justify-content-center">
+	<div class="d-flex justify-content-center scale-in-hor-center">
 		<a class="btn1header" href="#" target="_blank">Learn more</a>
 		<a class="btn2header" href="#" target="_blank">Download now</a>
 	</div>
 	<div class="d-flex justify-content-center">
-		<img src="img/homescreeneditps.png" alt="hype landing page header image" class="headerimg">
+		<img src="img/homescreeneditps.png" alt="hype landing page header image" class="headerimg fade-in-fwd">
 	</div>
 </header>
 
@@ -84,7 +82,7 @@
 		</div>
 	</section>
 	
-	<section class="d-flex justify-content-center margin-second">
+	<section class="d-flex justify-content-center margin-second scale-in-center">
 		<div class="d-flex flex-column">
 			<div>
 				<h2 class="h2-home">All you want from an app</h2>
@@ -106,42 +104,38 @@
 			</div>
 		</div>
 			<div class="d-flex">
-				<img src="img/feature-phones.png" class="img-phones-sec-center">
+				<img src="img/feature-phones.png" class="img-phones-sec-center" alt="feature phones">
 			</div>
 	</section>
 	
 	<section class="features-section">
 		<div class="d-flex flex-column justify-content-center text-center align-items-center">
-			<h2 class="h2-home">Awsome features</h2>
-			<p class="features-section-p">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic.</p>
+			<h2 class="h2-home scale-in-hor-center">Awsome features</h2>
+			<p class="features-section-p scale-in-hor-center">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic.</p>
 		</div>
 		
 		<section class="d-flex justify-content-end justify-content-center align-items-center features-section">
-			<div class="text-left">
+			<div class="text-left fade-in-fwd">
 				<p class="pgreen"><strong>Lorem Ipsum Dolor</strong></p>
 				<p class="text-margin-p">Epsum factorial non deposit quid pro quo hic factorial non deposit quid pro quo hic factorial non</p>
 				<p class="pgreen"><strong>Lorem Ipsum Dolor</strong></p>
 				<p>Epsum factorial non deposit quid pro quo hic factorial non deposit quid pro quo hic factorial non</p>
 			</div>
-			<div class="d-flex text-center">
+			<div class="d-flex text-center fade-in-fwd">
 				<img src="img/feature-single-phone.png" alt="smartphone homepage section">
 			</div>
-			<div class="text-right">
+			<div class="text-right fade-in-fwd">
 				<p class="pgreen"><strong>Lorem Ipsum Dolor</strong></p>
 				<p class="text-margin-p">Epsum factorial non deposit quid pro quo hic factorial non deposit quid pro quo hic factorial non</p>
 				<p class="pgreen"><strong>Lorem Ipsum Dolor</strong></p>
 				<p>Epsum factorial non deposit quid pro quo hic factorial non deposit quid pro quo hic factorial non</p>
 			</div>
 		</section>
-	
-		
-		
-		
 	</section>
 
 	<section>
 		<div class="d-flex flex-column justify-content-center text-center align-items-center header-margin">
-			<h2 class="h2-home">Screenhsot Gallary</h2>
+			<h2 class="h2-home typewriter">Screenhsot Gallary</h2>
 			<p class="features-section-p">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic.</p>
 		</div>
 	</section>
@@ -162,6 +156,17 @@
 			<img src="img/screenshot-phone1.png" alt="screenshot phone 2" class="screenshot-img">
 		</div>
 	</section>
+	<section class="d-flex justify-content-center margin-gallery">
+		<iframe width="858" height="439" src="https://www.youtube.com/embed/YDSIK5wwiow?si=hZUmE0HG8Z8OKDvr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</section>
+	
+	<section id="my-location" class="d-flex flex-column align-items-center text-center">
+		<h2 class="h2-home">My location</h2>
+		<p>Click on the button to get your location:</p>
+		<button id="location-button" class="form-btn">Get My Location</button>
+		<p id="location-output" class="features-section-p">Your location will show up here.</p>
+	</section>
+
 </main>
 <footer id="footer-bg">
 	<div class="d-flex flex-column justify-content-center text-center align-items-center header-margin">
@@ -185,16 +190,9 @@
 		</a>
 	</div>
 	<div>
-		<p class="text-center copyright-footer">Copyright 2014 Hype</p>
+		<p class="text-center copyright-footer">&copy Copyright 2014 Hype</p>
 	</div>
 </footer>
-
-
-
-
-
-<script src="./JS/index.js" defer></script>
-
-
+<script src="./JS/index.js"></script>
 </body>
 </html>

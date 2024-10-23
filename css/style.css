@@ -395,6 +395,36 @@ a:visited, a:focus, a:active {
 .margin-gallery{
     margin-bottom: 78px;
 }
+/*GEOLOCATION*/
+#my-location{
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #f7f8fa;
+    border-radius: 10px;
+}
+#location-output {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+#location-button {
+    padding: 15px 30px; /* Geeft de knop wat extra ruimte */
+    background-color: #a7cb00; /* Achtergrondkleur van de knop */
+    color: white; /* Kleur van de tekst */
+    font-family: 'SourceSansPro', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px; /* Dit maakt de hoeken rond */
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+#location-button:hover {
+    background-color: rgba(21, 123, 161, 0.8); /* Kleur bij hover */
+}
+
+
+
 /*FOOTER SECTION TEXT*/
 #footer-bg{
     background-color: #1f9bc9;
@@ -464,9 +494,75 @@ a:visited, a:focus, a:active {
     opacity: 0.7; /* Lichte transparantie voor subtiele weergave */
 
 }
-/*ANIMATIES*/
-/*ANIMATIE SECTION MIDDLE SMARTPHONES
-animation scale-in-center*/
+/*ANIMATIONS*/
+/* ----------------------------------------------
+Animation logo, h1-tag & buttons header section
+animation scale-up
+ ---------------------------------------------- */
+@-webkit-keyframes scale-in-hor-center {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+@keyframes scale-in-hor-center {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+.scale-in-hor-center {
+    -webkit-animation: scale-in-hor-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-hor-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/* ----------------------------------------------
+Animation header smartphones
+animation scale-in-center
+ ---------------------------------------------- */
+@-webkit-keyframes fade-in-fwd {
+    0% {
+        -webkit-transform: translateZ(-80px);
+        transform: translateZ(-80px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+@keyframes fade-in-fwd {
+    0% {
+        -webkit-transform: translateZ(-80px);
+        transform: translateZ(-80px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+.fade-in-fwd {
+    -webkit-animation: fade-in-fwd 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-fwd 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/* ----------------------------------------------
+Animation section middle smartphones
+animation scale-in-center
+ ---------------------------------------------- */
 .scale-in-center {
     -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -496,5 +592,50 @@ animation scale-in-center*/
         opacity: 1;
     }
 }
+/* ----------------------------------------------
+Animation feature section h2
+animation typewriter
+ ---------------------------------------------- */
+.typewriter {
+    font-family: lanenar;
+    font-size: 32px;
+    color: #000;
+    white-space: nowrap; /* Zorgt ervoor dat de tekst op één regel blijft */
+    overflow: hidden; /* Verbergt de tekst die buiten de container valt */
+    border-right: 3px solid black; /* Cursor-effect */
+    width: 0; /* Start met een breedte van 0 voor het typewriter-effect */
+    animation: typing 1.5s steps(30, end) forwards, blink-caret 0.75s step-end infinite; /* Typing en cursor-animatie */
+}
+
+/* Typewriter animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 15%; /* Zet de breedte van de tekst op 100% */
+    }
+}
+
+/* Blinking cursor animation */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}
+
+/* Verwijder de cursor na het typen */
+.typewriter.completed {
+    border-right: none; /* Verwijdert de cursor */
+}
+
+
+
+
+
+
 
 
