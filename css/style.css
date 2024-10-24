@@ -361,7 +361,6 @@ a:visited, a:focus, a:active {
 .h2ptext{
     max-width: 360px;
 }
-
 /*SECTON AWSOME FEATURES*/
 /*Deze regels stellen de achtergrondkleur, padding en uitlijning in voor de features en bijbehorende tekst.*/
 .features-section{
@@ -395,8 +394,12 @@ a:visited, a:focus, a:active {
 .margin-gallery{
     margin-bottom: 78px;
 }
+/*iFrame YouTube video*/
+iframe{
+    border: none;
+}
 /*GEOLOCATION*/
-/*Deze regels definiëren de opmaak voor de geolocatie-sectie, inclusief de knop en uitvoer van de locatie.*/
+/*Definieert de opmaak voor de geolocatie-sectie, inclusief de knop en uitvoer van de locatie.*/
 #my-location{
     margin-top: 50px;
     padding: 30px;
@@ -440,9 +443,9 @@ a:visited, a:focus, a:active {
 }
 /*FORM FOOTER*/
 /*Deze regels definiëren de opmaak voor invoervelden en knoppen in het footer-abonnementformulier.*/
-.form-imput{
+.form-input{
     font-family: sourcesans;
-    font-size: 16px 30px;
+    font-size: 16px;
     padding: 15px;
     width: 300px;
     border: none;
@@ -452,10 +455,10 @@ a:visited, a:focus, a:active {
     border-bottom-right-radius: 0px
 }
 .form-btn{
-    padding: 15px 30px;
+    padding: 15px;
     background-color: #a7cb00;
     color: white;
-    font-family: 'SourceSansPro', sans-serif;
+    font-family: sourcesans;
     font-size: 16px;
     border: none;
     border-top-right-radius: 5px;
@@ -581,41 +584,6 @@ a:visited, a:focus, a:active {
         opacity: 1;
     }
 }
-/*TYPEWRITE ANIMATION*/
-.typewriter {
-    font-family: lanenar;
-    font-size: 32px;
-    color: #000;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid black;
-    width: 0;
-    animation: typing 1.5s steps(30, end) forwards, blink-caret 0.75s step-end infinite;
-}
-@keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 15%;
-    }
-}
-
-/*BLINKING CURSOR ANIMATION*/
-@keyframes blink-caret {
-    from, to {
-        border-color: transparent;
-    }
-    50% {
-        border-color: black;
-    }
-}
-
-/*VERWIJDER CURSOR NA HET TYPEN*/
-.typewriter.completed {
-    border-right: none;
-}
-
 /*Animatie verschijnt pas wanneer gebruikerop dat deel van de pagina scrolt.*/
 .animatable {
     opacity: 0;
@@ -627,11 +595,3 @@ a:visited, a:focus, a:active {
     opacity: 1;
     transform: translateY(0);
 }
-
-
-
-
-
-
-
-

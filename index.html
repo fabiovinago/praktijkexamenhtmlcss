@@ -5,55 +5,48 @@
 	<meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
 	      name="viewport">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
-	<!-- Omschrijving van de website voor zoekmachines -->
+	<!-- Metabeschrijving, zoekwoorden en auteur van de website voor zoekmachine vindbaarheid -->
 	<meta content="Praktijkopdracht HTML en CSS voor fullstack developer" name="description">
-	<!-- Sleutelwoorden voor zoekmachines -->
 	<meta content="HTML, CSS, JavaScript, fullstack developer, programmeren" name="keywords">
-	<!-- Naam van de auteur van de pagina -->
 	<meta content="Fabio Vinago" name="author">
-	<!-- Link naar externe CSS-bestand -->
+	<!-- Koppeling naar het externe CSS-bestand voor de opmaak van de pagina -->
 	<link href="./css/style.css" rel="stylesheet">
-	<!-- Link naar de Font Awesome icons -->
+	<!-- Koppeling naar de externe Font Awesome CSS-bibliotheek voor iconen en pictogrammen -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
 	<title>Hype LandingPage</title>
-	<!-- Een class wordt gebruikt om meer dan één element te groeperen en in de css met een .(class name weergegeven), terwijl een ID (# gevolgd door id-naam) wordt gebruikt om één enkel element te identificeren. De gebruikte classes en id's in dit html document tref je in de CSS -->
+	
 
 </head>
 <body>
-<!-- Sectie bovenaan de pagina met class en unieke id voor de header -->
+<!-- Header sectie met logo en knoppen -->
 <header class="header-margin" id="hero-header">
-	<!-- Header met flexbox uitlijning in het midden -->
 	<div class="d-flex justify-content-center">
 		<a href="index.html" target="_blank"><img alt="hype logo" class="scale-in-hor-center" src="img/logo.png"></a>
 	</div>
 	<div class="maintextheader d-flex justify-content-center">
-		<!-- Tekst LANDINGPAGE onder het logo gecentreerd met flexbox -->
 		<p class="landingtext scale-in-hor-center hidden show">LANDINGPAGE</p>
 	</div>
-	<!-- H1-tag slogan van de website, tekst gecentreerd en flexibel uitgelijnd -->
 	<div class="sloganheader d-flex justify-content-center text-center">
 		<h1 class="h1-home scale-up-hor-center scale-in-hor-center">Hype Landing Page is the best way to present your
 			beautiful mobile app.</h1>
 	</div>
-	<!-- Twee knoppen in de header, gecentreerd met flexbox -->
 	<div class="d-flex justify-content-center scale-in-hor-center">
 		<a class="btn1header" href="#" target="_blank">Learn more</a>
 		<a class="btn2header" href="#" target="_blank">Download now</a>
 	</div>
-	<!-- Afbeelding onderaan de header, gecentreerd met flexbox -->
 	<div class="d-flex justify-content-center">
 		<img alt="hype landing page header image" class="headerimg fade-in-fwd" src="img/homescreeneditps.png">
 	</div>
 </header>
-<!-- Main-tag is een structureel element dat de hoofdinhoud van een document weergeeft. -->
+<!-- Hoofdinhoud sectie -->
 <main>
-	<!-- Informatie over de gebruikte technologie (Bootstrap), gecentreerd met flexbox -->
+	<!-- Sectie over gebruikte technologie -->
 	<section class="d-flex flex-column align-items-center text-center buildwith header-margin">
 		<h2 class="h2-home">Build with Bootstrap v3.0</h2>
 		<p class="buildwithp">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla
 			congolium sic ad nauseum.</p>
 	</section>
-	<!-- Sectie met 3 div's, d-flex zorgt voor flexbox-uitlijning en justify-content-evenly spreidt de items gelijkmatig uit -->
+	<!-- Sectie met functies -->
 	<section class="d-flex justify-content-evenly align-items-center text-center header-margin">
 		<div>
 			<img alt="Fully responsive icon" class="icon-home-size" src="img/kompas.png">
@@ -71,7 +64,7 @@
 			<p class="iconptext">Epsum factorial non deposit quid pro quo hic escorol.</p>
 		</div>
 	</section>
-	<!-- Sectie met tekst en afbeelding, flexbox-structuur voor layout. De tekst en afbeelding staan naast elkaar -->
+	<!-- Sectie met documentatie en afbeelding -->
 	<section class="d-flex justify-content-center margin-second animatable">
 		<div class="d-flex">
 			<img alt="smartphone center homepage" class="img-phones-center scale-in-center" src="img/smartphone2bw.png">
@@ -82,7 +75,6 @@
 				<p class="h2ptext">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla
 					congolium sic.</p>
 			</div>
-			<!-- Iconen en teksten uitgelijnd met flexbox, afbeelding + beschrijving -->
 			<div class="d-flex icon-text align-items-center">
 				<img alt="Pie icon homepage" class="icon-home-second" src="img/pieicon.png">
 				<div>
@@ -99,17 +91,16 @@
 			</div>
 		</div>
 	</section>
-	<!-- Sectie met functies en animaties,  flexbox om tekst en afbeeldingen op een nette manier uit te lijnen -->
+	<!-- Sectie met documentatie en afbeelding -->
 	<section class="d-flex justify-content-center margin-second animatable">
 		<div class="d-flex flex-column">
 			<div>
-				<!-- Iconen en teksten uitgelijnd met flexbox, afbeelding + beschrijving -->
 				<h2 class="h2-home">All you want from an app</h2>
 				<p class="h2ptext">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla
 					congolium sic.</p>
 			</div>
 			<div class="d-flex icon-text align-items-center">
-				<img class="icon-home-second scale-in-center" src="img/save-icon.png" alt="save icon"">
+				<img class="icon-home-second scale-in-center" src="img/save-icon.png" alt="save icon">
 				<div>
 					<p class="pgreen"><strong>Video background</strong></p>
 					<p class="icontextcenterdivp">Epsum factorial non deposit quid pro quo hic escorol.</p>
@@ -127,14 +118,13 @@
 			<img alt="feature phones" class="img-phones-sec-center" src="img/feature-phones.png">
 		</div>
 	</section>
-	<!-- Sectie kenmerken van de app met subtiele animaties (scale-in-hor-center) -->
+	<!-- Sectie met tekst en afbeelding -->
 	<section class="features-section">
 		<div class="d-flex flex-column justify-content-center text-center align-items-center">
 			<h2 class="h2-home scale-in-hor-center">Awsome features</h2>
 			<p class="features-section-p scale-in-hor-center">Epsum factorial non deposit quid pro quo hic escorol.
 				Olypian quarrels et gorilla congolium sic.</p>
 		</div>
-		<!-- Sectie met L en R p-elementen in div's, in het midden een single phone, gepositioneerd met flexbox -->
 		<section class="d-flex justify-content-end justify-content-center align-items-center features-section">
 			<div class="text-left fade-in-fwd">
 				<p class="pgreen"><strong>Lorem Ipsum Dolor</strong></p>
@@ -155,16 +145,15 @@
 			</div>
 		</section>
 	</section>
-	<!-- Sectie voor de screenshot gallery met afbeeldingen gepositioneerd met flexbox-->
+	<!-- Sectie met gallerij intro -->
 	<section>
-		<!-- Screenhot gallery met typewriter effect, p-tag met een scale in center effect-->
 		<div class="d-flex flex-column justify-content-center text-center align-items-center header-margin">
-			<h2 class="h2-home typewriter">Screenhsot Gallary</h2>
+			<h2 class="h2-home animatable">Screenhsot Gallery</h2>
 			<p class="features-section-p scale-in-center">Epsum factorial non deposit quid pro quo hic escorol. Olypian
 				quarrels et gorilla congolium sic.</p>
 		</div>
+		<!-- Sectie met gallerij afbeeldingen -->
 	</section>
-	<!-- Screenhot gallery waar de img's een scale in center effect hebben -->
 	<section class="d-flex justify-content-center margin-gallery animatable">
 		<div>
 			<img class="screenshot-img" src="img/screenshot-phone2.png" alt="screenshot phone 1">
@@ -182,14 +171,11 @@
 			<img class="screenshot-img" src="img/screenshot-phone1.png" alt="screenshot phone 5">
 		</div>
 	</section>
-	<!-- Ingesloten YouTube-video via een iFrame onderaan de screenshot-galerij -->
-	<section class="d-flex justify-content-center margin-gallery">
-		<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen frameborder="0"
-		        height="439" referrerpolicy="strict-origin-when-cross-origin"
-		        src="https://www.youtube.com/embed/YDSIK5wwiow?si=hZUmE0HG8Z8OKDvr"
-		        title="YouTube video player" width="858"></iframe>
+	<!-- Sectie met embedded YouTube video -->
+	<section class="d-flex justify-content-center margin-gallery animatable">
+		<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen height="439" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/YDSIK5wwiow?si=hZUmE0HG8Z8OKDvr" title="YouTube video player" width="858"></iframe>
 	</section>
-	<!-- Sectie om de locatie van de gebruiker op te vragen, met een knop en tekstoutput -->
+	<!-- Sectie om de GEO locatie bij de gebruiker op te vragen -->
 	<section class="d-flex flex-column align-items-center text-center" id="my-location">
 		<h2 class="h2-home">My location</h2>
 		<p>Click on the button to get your location:</p>
@@ -197,39 +183,35 @@
 		<p class="features-section-p" id="location-output">Your location will show up here.</p>
 	</section>
 </main>
-<!--De footer-tag definieert een voettekst voor een document -->
+<!-- Footer sectie met nieuwsbrief inschrijving, social icons en copyright text -->
 <footer id="footer-bg">
-	<!-- Footer met nieuwsbrief inschrijvingsformulier, gecentreerd -->
 	<div class="d-flex flex-column justify-content-center text-center align-items-center header-margin">
 		<h2 class="footer-h2">Subscribe to our newsletter</h2>
 		<p class="features-section-p footer-p">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et
 			gorilla congolium sic.</p>
 	</div>
-	<!-- Formulier voor nieuwsbrief inschrijving -->
 	<form action="#" class="d-flex justify-content-center align-items-center" method="POST">
 		<label for="email"></label>
-		<input class="form-imput footer-input" id="email" name="email" placeholder="Enter your e-mail address..." required
+		<input class="form-input footer-input" id="email" name="email" placeholder="Enter your e-mail address..." required
 		       type="email">
 		<button class="form-btn" type="submit"><strong>Notify Me</strong></button>
 	</form>
-	<!-- Social media iconen onderaan de pagina via Font Awesome en een CDN koppeling en color animation -->
 	<div class="d-flex justify-content-center">
-		<a aria-label="Twitter" href="https://facebook.com" target="_blank">
+		<a aria-label="Twitter" href="https://twitter.com" target="_blank">
 			<i class="fa-brands fa-square-x-twitter social-icons"></i>
 		</a>
-		<a aria-label="Facebook" href="https://twitter.com" target="_blank">
+		<a aria-label="Facebook" href="https://facebook.com" target="_blank">
 			<i class="fa-brands fa-square-facebook social-icons"></i>
 		</a>
 		<a aria-label="Instagram" href="https://instagram.com" target="_blank">
 			<i class="fa-brands fa-square-instagram social-icons"></i>
 		</a>
 	</div>
-	<!-- Copyright onderaan de pagina -->
 	<div>
-		<p class="text-center copyright-footer">&copy Copyright 2014 Hype</p>
+		<p class="text-center copyright-footer">&copy; Copyright 2014 Hype</p>
 	</div>
 </footer>
-<!-- Script-tag wortdt gebruikt om een script (JavaScript code) in te sluiten -->
+<!-- Extern JavaScript-bestand (index.JS) voor interactieve functionaliteiten -->
 <script src="./JS/index.js"></script>
 </body>
 </html>

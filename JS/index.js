@@ -1,15 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-
-    const typewriter = document.querySelector('.typewriter');
-
-    setTimeout(() => {
-        typewriter.classList.add('completed');
-    }, 1500); // 1.5s komt overeen met de animatieduur van het type-effect
-});
-
-/*Bovestaande JS code zorgt ervoor dat na het typing effect van 1.5 seconde de cursor op het einde verdwijnt*/
-
-
 // Functie om de locatie van de gebruiker op te vragen en weer te geven
 document.getElementById('location-button').addEventListener('click', function() {
     // Controleer of de browser geolocatie ondersteunt
